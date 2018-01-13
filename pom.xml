@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.et</groupId>
+  <artifactId>Zookeeper-Client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- zookeeper客户端的配置 -->
+  	<dependency>
+	    <groupId>com.101tec</groupId>
+	    <artifactId>zkclient</artifactId>
+	    <version>0.10</version>
+	</dependency>
+	<!-- mysql的配置 -->
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.26</version>
+	</dependency>
+	 <!-- 配置orcle -->
+  	<dependency>
+	  <groupId>a</groupId>
+	  <artifactId>a</artifactId>
+	  <version>3.2.8</version>
+	  <scope>system</scope>
+	  <systemPath>C:\app\Administrator\product\11.2.0\dbhome_2\jdbc\lib\ojdbc6.jar</systemPath>
+	</dependency>
+  </dependencies>
+</project>
